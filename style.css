@@ -1,0 +1,30 @@
+body {
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: fit-content;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:active {
+  background-color: cornflowerblue;
+}
+
+#game-section {
+  display: none;
+}
