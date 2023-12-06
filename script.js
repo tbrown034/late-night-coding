@@ -1,10 +1,7 @@
-// selectors
-const startGame = document.getElementById("start-game");
-const startMessage = document.getElementById("start-message");
-const gameBoard = document.getElementById("game-board");
-const resultsMessage = document.getElementById("results-message");
-const restartButton = document.getElementById("restart-button");
+// script.js
 
-// event listeners
+//selectors
 
-startGame.addEventListener("click", handleStartGame);
+startButton = document.getElementById("start-button");
+
+//event listeners
